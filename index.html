@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfólio | Jacira Paiva </title>
+    <title> Portfólio | Lilena Lopes </title>
     <style>
         /* --- CSS (Estilização Fiel à Imagem) --- */
         :root {
@@ -90,8 +90,8 @@
     <main>
         <section id="sobre" class="section">
             <h2>Sobre Mim</h2>
-           <img src="photo.jpeg" alt="Foto de Jacira" class="foto-perfil">
-            <p>Sou estudante de Sistemas para Internet (UAPI) e tenho foco em transformar requisitos complexos em interfaces funcionais e soluções digitais estruturadas.</p>
+           <img src="foto.jpg.jpeg" alt="Foto de Lilena" class="foto-perfil">
+            <p>Sou estudante de Sistemas para Internet (UAPI) e tenho foco em transformar requisitos em soluções digitais estruturadas.</p>
         </section>
         <section id="projetos" class="section">
             <h2>Meus Projetos</h2>
@@ -108,23 +108,20 @@
         // 1. Array de Objetos (Os Projetos do Integrador I)
         const projetos = [
             {
-        titulo: "SGET - Gestão Estratégica",
-        desc: "Arquitetura completa de um sistema de gestão de escalas. Foco em diagramas de caso de uso, classes e documentação de requisitos funcionais/não-funcionais.",
-        tecnologias: "UML, Engenharia de Requisitos",
-        link: "https://github.com/seu-usuario/sget"
-    },
-    {
-        titulo: "Interface de Escalas Web",
-        desc: "Desenvolvimento de interface responsiva para visualização de escalas, aplicando conceitos de UI/UX e estruturação semântica de dados.",
-        tecnologias: "HTML5, CSS3",
-        link: "https://github.com/seu-usuario/registro-escala"
-    },
-    {
-        titulo: "Sistema de Ponto Digital",
-        desc: "Protótipo funcional de registro de jornada de trabalho. Projeto focado na usabilidade do colaborador e consistência visual do painel administrativo.",
-        tecnologias: "HTML5, CSS3, Layout Responsivo",
-        link: "https://github.com/seu-usuario/registro-ponto"
-    }
+                titulo: "Projeto 01 - SGET",
+                desc: "Gestão de escalas com foco em modelagem UML e levantamento de requisitos funcionais.",
+                link: "https://github.com/usuario/sget"
+            },
+            {
+                titulo: "Projeto 02 - Registro de Escala",
+                desc: "Sistema web básico para registro de escalas, desenvolvido com HTML e CSS.",
+                link: "https://github.com/usuario/registro-escala"
+            },
+            {
+                titulo: "Projeto 03 - Registro de Ponto",
+                desc: "Sistema web básico para registro de jornada, desenvolvido com HTML e CSS.",
+                link: "https://github.com/usuario/registro-ponto"
+            }
         ];
         // 2. Renderizar os projetos na tela
         const container = document.getElementById('grid-projetos');
